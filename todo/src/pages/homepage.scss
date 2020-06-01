@@ -1,0 +1,34 @@
+.home-page {
+  display: flex;
+  .banner-container {
+    width: 60vw;
+    height: 100vh;
+    .banner {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .content-container {
+    height: 100vh;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .header-container {
+      font-family: 'Raleway', sans-serif;
+      .header {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: .5rem;
+      }
+      .subtext {
+        margin-top: 0;
+      }
+    }
+    .form-container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
